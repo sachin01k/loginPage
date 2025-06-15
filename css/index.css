@@ -1,0 +1,94 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* https://grabient.com/HQdgLAbANKkwnPAzFAtABmAJnQRhruumpocRsGDiZVtBZGDOgKwsw4g1ZVA/HQdgLAbANKkwnPAzFAtABmAJnQRhruumpocRsGDiZVtBZGDOgKwsw4g1ZVA?style=linearGradient&steps=5&angle=45 */
+
+  background: #4b6cb7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #182848,
+    #4b6cb7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #182848,
+    #4b6cb7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: aliceblue;
+}
+
+.container {
+  width: 550px;
+  height: 350px;
+  border: solid 1px rgb(101, 101, 101);
+  border-radius: 5px;
+  margin: auto;
+  box-shadow: 2px 2px 6px 6px rgb(96, 146, 189);
+  background: #6f8ac8; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #34425f,
+    #6b84bd
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #46587d, #5e80cf);
+}
+
+.child {
+  border: solid 1px rgb(165, 165, 165);
+  margin: 10px;
+}
+
+table {
+  margin: auto;
+  width: 50%;
+}
+
+tr {
+  margin: 10px;
+}
+
+input[type="text"] {
+  width: 300px;
+  height: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+input[type="submit"] {
+  width: 305px;
+  height: 30px;
+  margin-top: 10px;
+  background: #ff7ab2;
+  background: radial-gradient(
+    circle,
+    rgba(255, 122, 178, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  border: none;
+  border-radius: 5px;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background: #ff9cc5;
+  background: radial-gradient(
+    circle,
+    rgb(255, 155, 197) 0%,
+    rgb(190, 220, 255) 100%
+  );
+}
+
+.myFont {
+  font-family: "Edu NSW ACT Hand Pre", cursive;
+}
+
+/* label {
+  margin: 5rem;
+}
+
+input {
+  margin-top: 10px;
+  margin-left: 20px;
+} */
